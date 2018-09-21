@@ -1,0 +1,64 @@
+body {
+	background: url("../images/Music-Notes-PPT-Backgrounds.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: auto;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: fantasy;
+	opacity: .8;
+
+
+}
+h1 {
+	text-align: center;
+	color: green;
+	font-family: fantasy;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#gif-button{
+	background-color: purple	 ;
+
+
+} 
+
+#add-gif {
+	background-color:orangered	 ;
+
+
+}
+
+.btn {
+	margin: 10px;
+	opacity: .8;
+	
+}
+
+
+
+label {
+	font-size: 25px;
+	font-family: fantasy;
+	color:blue;
+
+}
+
+p {
+	font-size: 20px;
+	font-family: fantasy;
+
+}
+
+
+
+div1 {
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
