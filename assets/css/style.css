@@ -11,6 +11,11 @@ body {
 
 
 }
+
+#topic-container {
+	margin-left: 30px;
+
+}
 h1 {
 	text-align: center;
 	color: green;
@@ -38,7 +43,10 @@ h1 {
 	opacity: .8;
 	
 }
+#add-gif {
+	text-align: center;
 
+}
 
 
 label {

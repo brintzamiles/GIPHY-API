@@ -14,13 +14,13 @@ $(document).ready(function () {
             gifButton.attr(`value`, topic[i]);
             gifButton.attr(`id`, `gif-button`);
             gifButton.text(topic[i]);
-            $(`#gif-buttons`).append(gifButton);
+            $(  `#gif-buttons`).append(gifButton);
         }
     }
 
     //Topic add function
     function addNewTopic() {
-        $(`#add-gif`).on(`click`, function () {
+        $(`#add-btn`).on(`click`, function () {
             var theGreats = $(`#topic-add`).val().trim();
             //the input value is blank, cancel behavior
             if (theGreats == ``) {
@@ -54,7 +54,7 @@ $(document).ready(function () {
                     //load  GIPHYs in a new div
                     var gifDiv = $(`<div1>`);
                     //return rating of GIPHY
-                    var gifRating = $(`<p>`).text(`Rating:  ${results[i].rating}`);
+                    var gifRating = $(`<p>`).text(`Rating:  ${results[i].rating.toUpperCase()}`);
                     gifDiv.append(gifRating);
                     //I want to figure out how to make the rating uppercase
 

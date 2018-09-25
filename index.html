@@ -16,9 +16,11 @@
 </head>
 
 <div class="header-container">
-    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <h1>Musical Greats of Giphy Land!</h1>
+            <h1>Musical Greats of Giphy Land!</h1>
+        </div>
     </div>
 
 
@@ -27,31 +29,51 @@
 
 
 <!-- GIF BUTTONS  append or display in this area -->
-<div id="gif-buttons" class="container">
+<div class="btn-container">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div id="gif-buttons" class="container">
+            </div>
+        </div>
+    </div>
 </div>
+
+
+<!-- Add topic here -->
+<div class="topic-container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="form-group">
+                <label for="topic-add">
+                    <h3>Enter Your GIPHY Topic:</h3>
+                </label>
+
+                <input type="text" id="topic-add">
+                <input id="add-btn" type="submit" value="Add Your GIPHY!" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- 10 GIPHYS display area -->
 <div class="container">
-    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <div id="gifs-display">
+            <div id="gifs-display">
+            </div>
         </div>
     </div>
 
 
 
 </div>
-
-<!-- Add topic here -->
-<div class="form-group">
-    <label for="topic-add">
-        <h3>Enter Your GIPHY Topic:</h3>
-    </label>
-    <input type="text" id="topic-add">
-</div>
-<input id="add-gif" type="submit" value="Add Your GIPHY!" class="btn btn-primary">
-
-</form>
 
 <body>
 
